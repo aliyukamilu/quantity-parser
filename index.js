@@ -9,6 +9,10 @@ app.use(bodyParser.json());
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.json({ message: "Hello world" });
+})
+
 app.post('/duplicate', (req, res) => {
   try {
     const data = req.body;
