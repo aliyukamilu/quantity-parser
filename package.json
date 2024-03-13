@@ -1,0 +1,14 @@
+{
+  "name": "object-duplicator",
+  "version": "1.0.0",
+  "description": "A Node.js program with an API that duplicates objects based on a 'quantity' key",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.3"
+  }
+}
